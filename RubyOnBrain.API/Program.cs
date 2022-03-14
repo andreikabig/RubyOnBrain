@@ -12,5 +12,5 @@ var app = builder.Build();
 
 app.MapGet("/", (DataContext db) => db.Entries.Include(t => t.Topic).ToList());
 
-
+// Hello
 app.Run();
