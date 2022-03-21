@@ -19,7 +19,7 @@ namespace RubyOnBrain.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                "Data Source= (localdb)\\MSSQLLocalDB; Initial Catalog=RobTestData2"); 
+                "Data Source= (localdb)\\MSSQLLocalDB; Initial Catalog=RobTestData3"); 
         }
 
         // Метод для WebApi
