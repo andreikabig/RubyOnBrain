@@ -16,5 +16,9 @@ namespace RubyOnBrain.Domain
         public ProgLang ProgLang { get; set; }
         //public int ProgLangId { get; set; }
         public List<Topic> Topics { get; set; } = new List<Topic>();
+
+        public List<User> Users { get; set; } = new List<User>();
+
+        public List<UserCourse> UserCourses { get; set; } = new List<UserCourse>();
     }
 }
